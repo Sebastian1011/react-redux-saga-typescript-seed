@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./build",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react",
+    "pretty": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "paths": {
+      "redux": ["typings/redux.d.ts"],
+      "@src/*": ["src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
